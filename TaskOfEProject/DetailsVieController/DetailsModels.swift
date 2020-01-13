@@ -7,7 +7,6 @@
 //  Copyright © 2020 Nermeen. All rights reserved.
 //
 import UIKit
-
 enum Details
 {
   // MARK: Use cases
@@ -26,12 +25,11 @@ enum Details
   }
 }
 
-
 // MARK: - WeatherInfo
 struct WeatherInfo: Codable {
     let latitude, longitude: Double
     let timezone: String
-    let currently: Currently
+    let currently: WeatherHourly
     let hourly: Hourly
     let daily: Daily
     let flags: Flags
@@ -39,7 +37,7 @@ struct WeatherInfo: Codable {
 }
 
 // MARK: - Currently
-struct Currently: Codable {
+struct WeatherHourly: Codable {
     let time: Int
     let summary: Summary
     let icon: Icon
@@ -73,11 +71,11 @@ enum Summary: String, Codable {
 struct Daily: Codable {
     let summary: String
     let icon: Icon
-    let data: [Datum]
+    let data: [WeatherDaily]
 }
 
 // MARK: - Datum
-struct Datum: Codable {
+struct WeatherDaily: Codable {
     let time: Int
     let summary: String
     let icon: Icon
@@ -126,5 +124,5 @@ struct Flags: Codable {
 struct Hourly: Codable {
     let summary: String
     let icon: Icon
-    let data: [Currently]
+    let data: [WeatherHourly]
 }

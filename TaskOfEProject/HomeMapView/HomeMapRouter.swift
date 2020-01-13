@@ -27,11 +27,11 @@ class HomeMapRouter: NSObject, HomeMapRoutingLogic, HomeMapDataPassing
   
   func routeToDetailsVC()
   {
-    let storyboard = UIStoryboard(name: "Main", bundle: nil)
-      let destinationVC = storyboard.instantiateViewController(withIdentifier: "DetailsViewController") as! DetailsViewController
-      var destinationDS = destinationVC.router!.dataStore!
+    let destinationVC = DetailsViewController()
+    destinationVC.setup()
+    var destinationDS = destinationVC.router!.dataStore!
       passDataToDetailsVC(source: dataStore!, destination: &destinationDS)
-      navigateToDetailsVC(source: viewController!, destination: destinationVC)
+    navigateToDetailsVC(source: viewController!, destination: destinationVC)
     
   }
 

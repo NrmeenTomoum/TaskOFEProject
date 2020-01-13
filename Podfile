@@ -13,6 +13,7 @@ target 'TaskOfEProject' do
   pod 'FCAlertView'
   pod 'GoogleMaps'
    pod 'GooglePlaces'
+   pod 'LBTAComponents', :git => 'https://github.com/SwiftTsubame/LBTAComponents.git', :branch => 'DatasourceCollectionView'
   target 'TaskOfEProjectTests' do
     inherit! :search_paths
     # Pods for testing
