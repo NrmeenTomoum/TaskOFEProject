@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,7 +11,6 @@
 		57CF243B23222D06C2F77EFF /* Pods_TaskOfEProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BCB8F88BAF2E13C47848686 /* Pods_TaskOfEProjectTests.framework */; };
 		6862D8FA23CC51580083BE93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6862D8F923CC51580083BE93 /* AppDelegate.swift */; };
 		6862D8FC23CC51580083BE93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6862D8FB23CC51580083BE93 /* SceneDelegate.swift */; };
-		6862D8FE23CC51580083BE93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6862D8FD23CC51580083BE93 /* ViewController.swift */; };
 		6862D90123CC51580083BE93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6862D8FF23CC51580083BE93 /* Main.storyboard */; };
 		6862D90423CC51580083BE93 /* TaskOfEProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6862D90223CC51580083BE93 /* TaskOfEProject.xcdatamodeld */; };
 		6862D90623CC51590083BE93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6862D90523CC51590083BE93 /* Assets.xcassets */; };
@@ -21,6 +20,19 @@
 		6862D93023CC51920083BE93 /* RequestUtilty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6862D92D23CC51920083BE93 /* RequestUtilty.swift */; };
 		6862D93123CC51920083BE93 /* RequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6862D92E23CC51920083BE93 /* RequestService.swift */; };
 		6862D93223CC51920083BE93 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6862D92F23CC51920083BE93 /* APIClient.swift */; };
+		6862D93C23CC55110083BE93 /* HomeMapRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6862D93623CC55110083BE93 /* HomeMapRouter.swift */; };
+		6862D93D23CC55110083BE93 /* HomeMapModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6862D93723CC55110083BE93 /* HomeMapModels.swift */; };
+		6862D93E23CC55110083BE93 /* HomeMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6862D93823CC55110083BE93 /* HomeMapViewController.swift */; };
+		6862D93F23CC55110083BE93 /* HomeMapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6862D93923CC55110083BE93 /* HomeMapInteractor.swift */; };
+		6862D94123CC614C0083BE93 /* CustomMarker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6862D94023CC614C0083BE93 /* CustomMarker.xib */; };
+		6862D94323CC61C60083BE93 /* CustomMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6862D94223CC61C60083BE93 /* CustomMarker.swift */; };
+		6862D94C23CC67C00083BE93 /* DetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6862D94623CC67C00083BE93 /* DetailsPresenter.swift */; };
+		6862D94D23CC67C00083BE93 /* DetailsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6862D94723CC67C00083BE93 /* DetailsWorker.swift */; };
+		6862D94F23CC67C00083BE93 /* DetailsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6862D94923CC67C00083BE93 /* DetailsModels.swift */; };
+		6862D95023CC67C00083BE93 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6862D94A23CC67C00083BE93 /* DetailsViewController.swift */; };
+		6862D95123CC67C00083BE93 /* DetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6862D94B23CC67C00083BE93 /* DetailsInteractor.swift */; };
+		6862D95323CCA8DA0083BE93 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6862D95223CCA8DA0083BE93 /* Loader.swift */; };
+		6862D95523CCABC90083BE93 /* DetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6862D95423CCABC90083BE93 /* DetailsRouter.swift */; };
 		E038EC9985BA0149273B66DA /* Pods_TaskOfEProject_TaskOfEProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC2607F0DCE42B822B9FF4C /* Pods_TaskOfEProject_TaskOfEProjectUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +61,6 @@
 		6862D8F623CC51580083BE93 /* TaskOfEProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskOfEProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6862D8F923CC51580083BE93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6862D8FB23CC51580083BE93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6862D8FD23CC51580083BE93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6862D90023CC51580083BE93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6862D90323CC51580083BE93 /* TaskOfEProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskOfEProject.xcdatamodel; sourceTree = "<group>"; };
 		6862D90523CC51590083BE93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -64,6 +75,19 @@
 		6862D92D23CC51920083BE93 /* RequestUtilty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestUtilty.swift; sourceTree = "<group>"; };
 		6862D92E23CC51920083BE93 /* RequestService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestService.swift; sourceTree = "<group>"; };
 		6862D92F23CC51920083BE93 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		6862D93623CC55110083BE93 /* HomeMapRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMapRouter.swift; sourceTree = "<group>"; };
+		6862D93723CC55110083BE93 /* HomeMapModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMapModels.swift; sourceTree = "<group>"; };
+		6862D93823CC55110083BE93 /* HomeMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMapViewController.swift; sourceTree = "<group>"; };
+		6862D93923CC55110083BE93 /* HomeMapInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMapInteractor.swift; sourceTree = "<group>"; };
+		6862D94023CC614C0083BE93 /* CustomMarker.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomMarker.xib; sourceTree = "<group>"; };
+		6862D94223CC61C60083BE93 /* CustomMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMarker.swift; sourceTree = "<group>"; };
+		6862D94623CC67C00083BE93 /* DetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPresenter.swift; sourceTree = "<group>"; };
+		6862D94723CC67C00083BE93 /* DetailsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsWorker.swift; sourceTree = "<group>"; };
+		6862D94923CC67C00083BE93 /* DetailsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsModels.swift; sourceTree = "<group>"; };
+		6862D94A23CC67C00083BE93 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		6862D94B23CC67C00083BE93 /* DetailsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsInteractor.swift; sourceTree = "<group>"; };
+		6862D95223CCA8DA0083BE93 /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		6862D95423CCABC90083BE93 /* DetailsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsRouter.swift; sourceTree = "<group>"; };
 		8BCB8F88BAF2E13C47848686 /* Pods_TaskOfEProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskOfEProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF2EDD6895F5C8B5709734D /* Pods-TaskOfEProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskOfEProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-TaskOfEProjectTests/Pods-TaskOfEProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DFBEC736C459A8AB82272843 /* Pods-TaskOfEProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskOfEProjectTests.release.xcconfig"; path = "Target Support Files/Pods-TaskOfEProjectTests/Pods-TaskOfEProjectTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -109,7 +133,6 @@
 				BDF2EDD6895F5C8B5709734D /* Pods-TaskOfEProjectTests.debug.xcconfig */,
 				DFBEC736C459A8AB82272843 /* Pods-TaskOfEProjectTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -138,10 +161,12 @@
 		6862D8F823CC51580083BE93 /* TaskOfEProject */ = {
 			isa = PBXGroup;
 			children = (
+				6862D95223CCA8DA0083BE93 /* Loader.swift */,
+				6862D94523CC67A30083BE93 /* DetailsVieController */,
+				6862D93323CC54F10083BE93 /* HomeMapView */,
 				6862D92C23CC51920083BE93 /* NetWorkManger */,
 				6862D8F923CC51580083BE93 /* AppDelegate.swift */,
 				6862D8FB23CC51580083BE93 /* SceneDelegate.swift */,
-				6862D8FD23CC51580083BE93 /* ViewController.swift */,
 				6862D8FF23CC51580083BE93 /* Main.storyboard */,
 				6862D90523CC51590083BE93 /* Assets.xcassets */,
 				6862D90723CC51590083BE93 /* LaunchScreen.storyboard */,
@@ -179,6 +204,40 @@
 			path = NetWorkManger;
 			sourceTree = "<group>";
 		};
+		6862D93323CC54F10083BE93 /* HomeMapView */ = {
+			isa = PBXGroup;
+			children = (
+				6862D94423CC66740083BE93 /* CustomPinView */,
+				6862D93623CC55110083BE93 /* HomeMapRouter.swift */,
+				6862D93723CC55110083BE93 /* HomeMapModels.swift */,
+				6862D93823CC55110083BE93 /* HomeMapViewController.swift */,
+				6862D93923CC55110083BE93 /* HomeMapInteractor.swift */,
+			);
+			path = HomeMapView;
+			sourceTree = "<group>";
+		};
+		6862D94423CC66740083BE93 /* CustomPinView */ = {
+			isa = PBXGroup;
+			children = (
+				6862D94023CC614C0083BE93 /* CustomMarker.xib */,
+				6862D94223CC61C60083BE93 /* CustomMarker.swift */,
+			);
+			path = CustomPinView;
+			sourceTree = "<group>";
+		};
+		6862D94523CC67A30083BE93 /* DetailsVieController */ = {
+			isa = PBXGroup;
+			children = (
+				6862D95423CCABC90083BE93 /* DetailsRouter.swift */,
+				6862D94623CC67C00083BE93 /* DetailsPresenter.swift */,
+				6862D94723CC67C00083BE93 /* DetailsWorker.swift */,
+				6862D94923CC67C00083BE93 /* DetailsModels.swift */,
+				6862D94A23CC67C00083BE93 /* DetailsViewController.swift */,
+				6862D94B23CC67C00083BE93 /* DetailsInteractor.swift */,
+			);
+			path = DetailsVieController;
+			sourceTree = "<group>";
+		};
 		B6B40CA9971DAA4EF961470D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,6 +260,7 @@
 				6862D8F323CC51580083BE93 /* Frameworks */,
 				6862D8F423CC51580083BE93 /* Resources */,
 				385A61D459AA85252FF8BB34 /* [CP] Embed Pods Frameworks */,
+				79704BF8AB09DE415695ACB4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,6 +299,7 @@
 				6862D91723CC51590083BE93 /* Frameworks */,
 				6862D91823CC51590083BE93 /* Resources */,
 				4DC5EE4F414CED5537ADF503 /* [CP] Embed Pods Frameworks */,
+				E65C3D35C2B4D2DE1A08607A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -301,6 +362,7 @@
 				6862D90923CC51590083BE93 /* LaunchScreen.storyboard in Resources */,
 				6862D90623CC51590083BE93 /* Assets.xcassets in Resources */,
 				6862D90123CC51580083BE93 /* Main.storyboard in Resources */,
+				6862D94123CC614C0083BE93 /* CustomMarker.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +439,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaskOfEProject-TaskOfEProjectUITests/Pods-TaskOfEProject-TaskOfEProjectUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		79704BF8AB09DE415695ACB4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaskOfEProject/Pods-TaskOfEProject-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaskOfEProject/Pods-TaskOfEProject-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaskOfEProject/Pods-TaskOfEProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9EB74AD24FE047F25C6D3478 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -421,6 +500,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E65C3D35C2B4D2DE1A08607A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaskOfEProject-TaskOfEProjectUITests/Pods-TaskOfEProject-TaskOfEProjectUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaskOfEProject-TaskOfEProjectUITests/Pods-TaskOfEProject-TaskOfEProjectUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaskOfEProject-TaskOfEProjectUITests/Pods-TaskOfEProject-TaskOfEProjectUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -428,13 +524,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6862D8FE23CC51580083BE93 /* ViewController.swift in Sources */,
+				6862D93E23CC55110083BE93 /* HomeMapViewController.swift in Sources */,
+				6862D94C23CC67C00083BE93 /* DetailsPresenter.swift in Sources */,
+				6862D94323CC61C60083BE93 /* CustomMarker.swift in Sources */,
 				6862D93223CC51920083BE93 /* APIClient.swift in Sources */,
 				6862D93123CC51920083BE93 /* RequestService.swift in Sources */,
 				6862D8FA23CC51580083BE93 /* AppDelegate.swift in Sources */,
 				6862D8FC23CC51580083BE93 /* SceneDelegate.swift in Sources */,
+				6862D95523CCABC90083BE93 /* DetailsRouter.swift in Sources */,
 				6862D93023CC51920083BE93 /* RequestUtilty.swift in Sources */,
+				6862D95323CCA8DA0083BE93 /* Loader.swift in Sources */,
+				6862D93F23CC55110083BE93 /* HomeMapInteractor.swift in Sources */,
 				6862D90423CC51580083BE93 /* TaskOfEProject.xcdatamodeld in Sources */,
+				6862D94F23CC67C00083BE93 /* DetailsModels.swift in Sources */,
+				6862D95023CC67C00083BE93 /* DetailsViewController.swift in Sources */,
+				6862D95123CC67C00083BE93 /* DetailsInteractor.swift in Sources */,
+				6862D93D23CC55110083BE93 /* HomeMapModels.swift in Sources */,
+				6862D93C23CC55110083BE93 /* HomeMapRouter.swift in Sources */,
+				6862D94D23CC67C00083BE93 /* DetailsWorker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

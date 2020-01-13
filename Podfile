@@ -11,6 +11,8 @@ target 'TaskOfEProject' do
   pod 'SwiftyJSON', '~>5.0.0'
   pod 'MBProgressHUD', '~> 1.1.0'
   pod 'FCAlertView'
+  pod 'GoogleMaps'
+   pod 'GooglePlaces'
   target 'TaskOfEProjectTests' do
     inherit! :search_paths
     # Pods for testing

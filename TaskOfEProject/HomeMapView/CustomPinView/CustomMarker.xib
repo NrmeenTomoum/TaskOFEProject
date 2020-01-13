@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomMarker" customModule="TaskOfEProject"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="CustomMarker" id="iN0-l3-epB" customClass="CustomMarker" customModule="TaskOfEProject" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="120" height="101"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AET-qg-bKw">
+                    <rect key="frame" x="0.0" y="0.0" width="120" height="101"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                    <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <state key="normal" title="Show details ">
+                        <color key="titleColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="showDetailsOfCity:" destination="iN0-l3-epB" eventType="touchUpInside" id="LCd-bW-023"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="AET-qg-bKw" secondAttribute="bottom" id="4C3-8A-Cgq"/>
+                <constraint firstItem="AET-qg-bKw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Kby-IF-yS8"/>
+                <constraint firstAttribute="trailing" secondItem="AET-qg-bKw" secondAttribute="trailing" id="dOp-Mr-TIw"/>
+                <constraint firstItem="AET-qg-bKw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="otU-1E-OFf"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="showDetailsButton" destination="AET-qg-bKw" id="fPL-kz-d4L"/>
+            </connections>
+            <point key="canvasLocation" x="-962.31884057971024" y="143.63839285714286"/>
+        </view>
+    </objects>
+</document>

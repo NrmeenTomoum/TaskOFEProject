@@ -10,6 +10,7 @@ import Foundation
 import SwiftyJSON
 import Alamofire
 struct Constants {
+    static let  APIKEY = "2d8c8c6571988b81965b115d54b3ff72"
     struct  Server{
            
            #if DEVELOPMENT
@@ -21,10 +22,10 @@ struct Constants {
            #else
            static let baseURL = "https:"
            #endif
-           static let hostUrl = "https:"
-           
+           static let hostUrl = "https://api.darksky.net/forecast/"
+           ///2d8c8c6571988b81965b115d54b3ff72/25.276987,55.296249
            struct Services {
-               static let  getUsersURL =  hostUrl + ""
+               static let  getWeatherInfo =  hostUrl + ""
            }
        }
 }
