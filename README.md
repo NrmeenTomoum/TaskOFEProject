@@ -1,8 +1,8 @@
 # Weather of Cities 
-<p align="left">
+<br>
+< align="left">
 	<img src="s1.png" width="40%" alt="Weather View"/>
-	<p align="Right">
+	< align="Right">
 	<img src="s2.png" width="40%" alt="Weather View"/>
-</p> 
-</p> 
 
+<br>
