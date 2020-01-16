@@ -1,6 +1,6 @@
 # Weather of Cities 
 
 ### Today Extension
-|    iOS8/9    |    iOS10    |
-|--------------|-------------|
-|![today1]<img src="s1.png" width="40%" alt="Weather View"/>|![today2]<img src="s2.png" width="40%" alt="Weather View"/>|
+|   Screen1  |    Screen2    |  Screen3   |
+|--------------|-------------|-------------|
+|![First View]<img src="s1.png" width="40%" alt="Weather View"/>|![Screen View]<img src="s2.png" width="40%" alt="Weather View"/>|![Screen 3]<img src="s2.png" width="40%" alt="Weather View"/>|
