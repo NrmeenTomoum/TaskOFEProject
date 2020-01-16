@@ -1,4 +1,4 @@
-# Weather of Cities 
+# Weather of The Cities 
 
 ### Today Extension
 |   Screen1  |    Screen2    |  Screen3   |
