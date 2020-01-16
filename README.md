@@ -1,4 +1,4 @@
-# Weather of The Cities 
+# iOS 13 Weather of The Cities 
 example for one of the main Purpose of this repo is to show how to use custom collectionViewLayout to reproduce the smooth scrolling experience in the native weather app.
 ### Today Extension
 |   Screen1  |    Screen2    |  Screen3   |
