@@ -1,5 +1,9 @@
 # TaskOFEProject
-<p align="center">
-	<img src="s1.png" width="70%" alt="Weather View"/>
+<p align="left">
+	<img src="s1.png" width="40%" alt="Weather View"/>
+	<br/><br/>
+</p> 
+<p align="Right">
+	<img src="s2.png" width="40%" alt="Weather View"/>
 	<br/><br/>
 </p> 
